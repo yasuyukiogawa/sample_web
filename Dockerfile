@@ -6,7 +6,7 @@ COPY . .
 #CMD ["", "src/index.js"]
 
 RUN npm install http-server
-CMD ["node", "./node_modules/http-server/bin/http-server", "-p", "80"]
+CMD ["node", "./node_modules/http-server/bin/http-server", "-p", "8080"]
 
 
 # alpine とは軽量なLinux。apkは、alpineのパッケージ管理。
